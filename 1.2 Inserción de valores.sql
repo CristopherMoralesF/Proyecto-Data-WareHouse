@@ -116,17 +116,17 @@ GO
 -----> Cris comment: Al parecer no existe la FK 28 y  29, crearlas o cambiarlas en el query a partir de acá, todas las tablas tienen el mismo issue <-----
 */
 
-INSERT INTO DISTRIBUIDOR VALUES
-	(6,27,'2019-10-20',6,6),	
-	(7,28,'2022-04-01',7,7),	
-	(8,29,'2010-01-23',8,7)
+INSERT INTO DISTRIBUIDOR 
+VALUES(6,27,'2019-10-20',6,6);
+INSERT INTO DISTRIBUIDOR 
+VALUES(7,28,'2022-04-01',7,7);
 GO
 
 
 INSERT INTO RECETA_MEDICA VALUES
-	(6,'Tomar de 1 a 2 g cada 8 horas',1,39,'2020-08-08'),
-	(7,'Inicialmente, 60 mg pero puede variar de 30-90 mg tid. Máx.: 300 mg diarios',1,40,'2021-08-08'),
-	(8,'Dos cucharaditas de LORATADINA (10 ml = 10 mg) una vez al día.',1,35,'2019-01-03')
+	(6,'Tomar de 1 a 2 g cada 8 horas',1,6,'2020-08-08'),
+	(7,'Inicialmente, 60 mg pero puede variar de 30-90 mg tid. Máx.: 300 mg diarios',1,7,'2021-08-08'),
+	(8,'Dos cucharaditas de LORATADINA (10 ml = 10 mg) una vez al día.',1,8,'2019-01-03')
 GO
 
 INSERT INTO RECETA_X_MEDICAMENTOS VALUES
@@ -135,12 +135,5 @@ INSERT INTO RECETA_X_MEDICAMENTOS VALUES
 	(8,8,8)
 GO
 
-INSERT INTO PRECAUCION VALUES 
-	(1,'Náusea, vómito, dolor epigástrico, somnolencia, ictericia, anemia hemolítica','2023-09-01',1),
-	(2,'Urticaria, respiración dificultosa, hinchazón de la cara, los labios, fiebre, dolor de garganta','2023-04-01',2),
-	(3,'Somnolencia, sequedad de boca, cefalea, mareo, fatiga, molestias gastrointestinales','2023-06-01',3),
-	(4,'Cefalea, nerviosismo, transpiración, estreñimiento','2023-05-01',4),
-	(5,'Náusea, vómitos, diarrea, dolor de cabeza','2023-10-01',5)
-GO
 
 
