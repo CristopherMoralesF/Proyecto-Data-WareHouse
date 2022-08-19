@@ -1589,6 +1589,29 @@ INSERT INTO RECETA_X_MEDICAMENTOS VALUES
 	(6,6,6),
 	(7,7,7),
 	(8,8,8)
+	
+	/*
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (9, 'Oth specific arthropathies, NEC, right ankle and foot', 2, 9, '2022-02-04');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (10, 'Injury of unsp nerve at lower leg level, unsp leg, sequela', 2, 10, '2021-09-21');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (11, 'Unsp comp of cardiac and vascular prosth dev/grft, init', 3, 11, '2021-11-15');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (12, 'Antepart hemorrhage w dissem intravasc coag, first trimester', 2, 12, '2018-05-16');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (13, 'Displ commnt fx shaft of unsp fibula, 7thQ', 1, 13, '2018-10-27');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (14, 'Velo-cardio-facial syndrome', 1, 14, '2020-11-05');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (15, 'Oth coma,w/o Glasgow coma scale score,or w/part score report', 2, 15, '2021-10-01');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (16, 'Other specified injuries of pharynx and cervical esophagus', 1, 16, '2020-07-01');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (17, 'Other fracture of lower end of tibia', 1, 17, '2018-10-04');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (18, 'Strain flexor musc/fasc/tend l mid finger at forarm lv, sqla', 3, 18, '2019-08-09');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (19, 'Undrdose of primarily systemic and hematolog agents, sequela', 1, 19, '2021-01-08');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (20, 'Inj extn musc/fasc/tend l little finger at forarm lv, subs', 1, 20, '2021-01-20');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (21, 'Burn of right eye and adnexa, part unspecified, sequela', 3, 21, '2021-02-13');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (22, 'Unsp fx shaft of r ulna, subs for opn fx type I/2 w nonunion', 3, 22, '2020-06-11');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (23, 'Abscess of right external ear', 1, 23, '2021-09-20');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (24, 'Osteonecrosis in diseases classd elswhr, right ank/ft', 1, 24, '2019-07-03');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (25, 'Disp fx of med malleolus of unsp tibia, 7thD', 3, 25, '2018-08-21');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (26, 'Other subluxation of unspecified knee, sequela', 1, 26, '2018-08-13');
+insert into RECETA_MEDICA (CODIGO_RECETA_MEDICA, DESCRIP_USO_MEDICO, CANTIDAD, ID_CLIENTE, FECHA) values (27, 'Nondisp fx of lateral epicondyl of r humer, 7thP', 2, 27, '2020-10-29');
+	
+	*/
 GO
 
 
