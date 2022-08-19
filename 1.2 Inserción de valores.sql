@@ -19,9 +19,28 @@ INSERT INTO CATEGORIA_MEDICAMENTO VALUES
 	(2,'Antialérgicos','Fármacos que tienen la finalidad de combatir los efectos negativos de las reacciones alérgicas'),
 	(3,'Antiinflamatorios','Fármacos que tienen como finalidad reducir los efectos de la inflamación'),
 	(4,'Antiinfecciosos','Este tipo de medicamentos están recetados para hacer frente a infecciones'),
-	(5,'Antipiréticos','Este tipo de medicamentos que tienen la capacidad de reducir la fiebre')
-GO
 */
+	INSERT INTO CATEGORIA_MEDICAMENTO VALUES 
+	(5,'Antipiréticos','Este tipo de medicamentos que tienen la capacidad de reducir la fiebre')
+/*
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (6, 'soCALM Pain Relieving', 'Blister (nonthermal) of right thumb');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (7, 'Povidone Iodine Surgical Scrub', 'Chimera 46, XX/46, XY');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (8, 'Amidate', 'Toxic effect of arsenic and its compounds, assault, init');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (9, 'Sodium Sulfacetamide 10 Sulfur 2 Cleanser', 'Cocaine abuse with intoxication, uncomplicated');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (10, 'Longleaf Pine', 'Benign neoplasm of other and unspecified endocrine glands');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (11, 'TAXODIUM DISTICHUM POLLEN', 'Matern care for disproprtn due to outlet contrctn of pelvis');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (12, 'FERRUM PHOSPHATE', 'Contus/lac right cerebrum w/o loss of consciousness, init');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (13, 'Sertraline Hydrochloride', 'Smith''s fracture of unsp radius, init for clos fx');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (14, 'Leader Allerhist', 'Unspecified acquired deformity of hand');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (15, 'Carbidopa, Levodopa, and Entacapone', 'Toxic effect of other pesticides, undetermined, init encntr');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (16, 'Diltiazem Hydrochloride', 'Corrosion of second degree of left axilla, sequela');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (17, 'VENTOLINHFA', 'Displ spiral fx shaft of l fibula, 7thN');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (18, 'OXYCODONE AND ACETAMINOPHEN', 'Disp fx of ant wall of right acetab, subs for fx w nonunion');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (19, 'Ceftriaxone', 'Displaced bicondylar fracture of right tibia, init');
+insert into CATEGORIA_MEDICAMENTO (ID_TIPO_MED, CATEGORIA_MED, DESCRIPCION_CATEGORIA_MED) values (20, 'Mellow Instant Hand Sanitizer Original', 'Adverse effect of other psychodysleptics, initial encounter');
+*/
+GO
+
 
 
 INSERT INTO PROVEEDOR VALUES 
