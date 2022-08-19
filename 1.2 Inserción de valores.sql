@@ -1183,4 +1183,61 @@ INSERT INTO RECETA_X_MEDICAMENTOS VALUES
 GO
 
 
+/*
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (6, 'Blister (nonthermal) of unspecified back wall of thorax', '2023-10-31', 6);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (7, 'Open bite of right thumb with damage to nail', '2023-06-27', 7);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (8, 'Encounter for screening for malignant neoplasm of cervix', '2023-03-04', 8);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (9, 'Ped on sktbrd injured in clsn w pedl cyc nontraf, sequela', '2024-05-07', 9);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (10, 'Poisn by unsp nonopi analgs/antipyr/antirheu, assault, subs', '2024-05-31', 10);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (11, 'Rupture of synovium, left ankle', '2024-05-06', 11);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (12, 'Other otosclerosis, left ear', '2024-08-07', 12);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (13, 'Open bite of right ring finger w/o damage to nail, subs', '2024-01-24', 13);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (14, 'Sltr-haris Type I physeal fx phalanx of right toe, 7thP', '2023-09-02', 14);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (15, 'Tyrosinemia', '2023-02-23', 15);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (16, 'Oth fracture of unsp lower leg, init for opn fx type 3A/B/C', '2023-09-25', 16);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (17, 'Disorders of visual pathways in (due to) vascular disorders', '2024-06-04', 17);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (18, 'Toxic effect of unsp organic solvent, accidental, sequela', '2024-07-09', 18);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (19, 'Maternal care for anti-D antibodies, second tri, fetus 5', '2023-02-14', 19);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (20, 'Vascular comp fol infusion, transfuse and theraputc inject', '2024-10-04', 20);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (21, 'Fx unsp phalanx of l little finger, subs for fx w routn heal', '2024-12-23', 21);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (22, 'Glaucoma secondary to eye trauma, unsp eye, severe stage', '2024-05-10', 22);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (23, 'Displacement of esophageal anti-reflux device, init encntr', '2024-11-29', 23);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (24, 'Terrorism involving firearms', '2023-09-27', 24);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (25, 'Other female genital tract fistulae', '2024-06-28', 25);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (26, 'Bilateral femoral hernia, with obstruction, without gangrene', '2024-09-13', 26);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (27, 'Sltr-haris Type II physeal fx phalanx of right toe, 7thB', '2024-08-12', 27);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (28, 'Nondisp fx of med condyle of r tibia, 7thR', '2023-09-11', 28);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (29, 'Dislocation of radiocarpal joint of right wrist', '2024-03-24', 29);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (30, 'Monoarthritis, not elsewhere classified, left shoulder', '2024-09-14', 30);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (31, 'Abrasion, unspecified thigh, subsequent encounter', '2024-11-12', 31);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (32, 'Oth fx shaft of l femr, 7thR', '2024-04-16', 32);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (33, 'Unsp fx fifth MC bone, left hand, subs for fx w delay heal', '2024-10-18', 33);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (34, 'War operations involving other explosions and fragments', '2024-06-28', 34);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (35, 'Crohn''s disease of small intestine', '2023-03-14', 35);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (36, 'Burn of second degree of left toe(s) (nail), subs encntr', '2024-06-28', 36);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (37, 'Assault by unspecified hot objects, initial encounter', '2023-12-26', 37);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (38, 'Unsp physeal fracture of lower end of unspecified tibia', '2024-08-17', 38);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (39, 'Unspecified fracture of shaft of right ulna', '2023-06-25', 39);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (40, 'Unspecified contact dermatitis, unspecified cause', '2025-01-14', 40);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (41, 'Corrosion of first degree of right scapular region, sequela', '2024-07-23', 41);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (42, 'Driver of hv veh injured in clsn w ped/anml in traf, init', '2024-07-30', 42);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (43, 'Abrasion of hip', '2023-10-17', 43);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (44, 'Idiopathic aseptic necrosis of unspecified bone', '2023-04-13', 44);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (45, 'Prosth/oth implnt/mtrls anesthesiology devices assoc w incdt', '2025-01-11', 45);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (46, 'Corros unsp deg of shldr/up lmb, ex wrs/hnd, unsp site, subs', '2023-11-08', 46);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (47, 'Other common variable immunodeficiencies', '2024-10-29', 47);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (48, 'Dental root caries', '2024-12-13', 48);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (49, 'Other contact with other birds', '2023-11-26', 49);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (50, 'Corrosion of second degree of right hand, unsp site, sequela', '2024-12-07', 50);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (51, 'Smith''s fx unsp radius, subs for clos fx w delay heal', '2024-01-08', 51);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (52, 'Other specified injuries of vocal cord', '2024-05-09', 52);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (53, 'War op w indir blast effect of nuclear weapon, civ, sequela', '2024-01-31', 53);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (54, 'Personal history of malignant neoplasm of unsp resp organ', '2024-03-11', 54);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (55, 'Disp fx of neck of scapula, left shoulder, init for clos fx', '2023-08-10', 55);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (56, 'Driveway of mobile home as place', '2023-06-18', 56);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (57, 'Tularemia', '2024-10-26', 57);
+insert into PRECAUCION (ID_PRECAUCION, EFECTOS_SECUNDARIOS, FECHA_INDICACION, ID_MEDICAMENTO) values (58, 'Swimming-pool of reform school as place', '2023-10-27', 58);
+
+
+*/
 
